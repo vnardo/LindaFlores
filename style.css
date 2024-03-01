@@ -580,7 +580,7 @@ h1.numero {
     border-radius: 20px;
 }
 
-@media screen and (max-width: 1400px){
+@media screen and (max-width: 1100px){
     .apresentation {
         flex-wrap: wrap;
         width: 90vw;
