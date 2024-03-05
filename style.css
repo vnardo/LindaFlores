@@ -163,6 +163,28 @@ li:hover {
     transform: scale(1.03);
 }
 
+.image-overlay {
+    position: relative;
+    width: 100%;
+  }
+
+.bottom-image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+  }
+  
+.top-image {
+    position: relative;
+    z-index: 2;
+  }
+
+#item:hover{
+    opacity: 0;
+    transition: 0.3s;
+}
+
 .container {
     display: flex;
     justify-content: center;
